@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
         <div className='flex flex-row gap-[48px] ml-[32px] items-center whitespace-nowrap text-[16px] sm:text-[14px] sm:ml-4'>
           <div className='flex items-center'>
             <p>Shop</p>
-            <img src="/images/Vector.png" alt='Vector Icon' className='ml-2 w-[16px] h-[16px]' />
+            <Image src="/images/Vector.png" alt='Vector Icon' className='ml-2 w-[16px] h-[16px]' />
           </div>
 
           <p>On Sale</p>
@@ -19,8 +20,8 @@ function Navbar() {
         </div>
 
         <div className='flex items-center ml-auto gap-4 sm:gap-2'>
-          <img src="/images/search.png" alt='Search Icon' className='w-[577px] h-[48px] ml-[32px] sm:w-[150px] sm:h-[40px]' />
-          <img src="/images/Cart.png" alt='Cart Icon' className='w-auto h-auto sm:w-[24px] sm:h-[24px]' />
+          <Image src="/images/search.png" alt='Search Icon' className='w-[577px] h-[48px] ml-[32px] sm:w-[150px] sm:h-[40px]' />
+          <Image src="/images/Cart.png" alt='Cart Icon' className='w-auto h-auto sm:w-[24px] sm:h-[24px]' />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import Hero3 from "@/components/Hero3";
 import Navbar from "@/components/Navbar";
 import Offers from "@/components/Offers";
 import Selling from "@/components/Selling";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

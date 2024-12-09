@@ -11,14 +11,14 @@ function Customers() {
         
         <div className="flex gap-7 ml-auto pr-5 sm:pr-10 md:pr-28">
           <button className="w-8 h-8 flex items-center justify-center border rounded-full">
-            <img
+            <Image
               src="/images/left arrow.png"
               alt="Left Arrow"
               className="w-full h-full object-contain"
             />
           </button>
           <button className="w-8 h-8 flex items-center justify-center border rounded-full">
-            <img
+            <Image
               src="/images/right arrow.png"
               alt="Right Arrow"
               className="w-full h-full object-contain"
