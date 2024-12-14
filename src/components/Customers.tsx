@@ -14,6 +14,8 @@ function Customers() {
             <Image
               src="/images/left arrow.png"
               alt="Left Arrow"
+              width={24}
+              height={24}
               className="w-full h-full object-contain"
             />
           </button>
@@ -21,6 +23,8 @@ function Customers() {
             <Image
               src="/images/right arrow.png"
               alt="Right Arrow"
+              width={24}
+              height={24}
               className="w-full h-full object-contain"
             />
           </button>
